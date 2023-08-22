@@ -1,6 +1,29 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import issueData from "./issueData";
+import IssueChart from "./IssueChart";
 
 const SelectMonth = () => {
+  const [isDataExist, setIsDataExist] = useState(false);
+  const [selectedMonth, setSelectedMonth] = useState(null);
+  const [userData, setUserData] = useState({
+    labels: [],
+    datasets: [
+      {
+        label: "Issue Count",
+        data: [],
+        backgroundColor: [
+          "rgba(75,192,192,1)",
+          "#ecf0f1",
+          "#50AF95",
+          "#f3ba2f",
+          "#2a71d0",
+        ],
+        borderColor: "black",
+        borderWidth: 2,
+      },
+    ],
+  });
+
   useEffect(() => {
     const select = document.getElementById("month-select");
 
@@ -22,7 +45,55 @@ const SelectMonth = () => {
       );
       select.appendChild(option);
     }
-  }, []); // Empty dependency array ensures this runs only once after initial render
+
+    select.addEventListener("change", () => {
+      // Get the selected month from the value of the select element
+      const newSelectedMonth = Number(select.value);
+      setSelectedMonth(newSelectedMonth);
+
+      // Check if data exists for the selected month
+      const hasDataForSelectedMonth = issueData.some((d) => {
+        const dataMonth = new Date(d.date).getMonth() + 1;
+        return dataMonth === newSelectedMonth;
+      });
+
+      setIsDataExist(hasDataForSelectedMonth);
+    });
+  }, []);
+
+  const filteredData = issueData.filter((d) => {
+    const dataMonth = new Date(d.date).getMonth() + 1;
+    return dataMonth === selectedMonth;
+  });
+
+  useEffect(() => {
+    if (selectedMonth !== null) {
+      const filteredData = issueData.filter((d) => {
+        const dataMonth = new Date(d.date).getMonth() + 1;
+        return dataMonth === selectedMonth;
+      });
+
+      setUserData({
+        labels: filteredData.map((data) => new Date(data.date).getDate()),
+        datasets: [
+          {
+            label: "Issue Count",
+            data: filteredData.map((data) => data.issue_count),
+            backgroundColor: [
+              "rgba(75,192,192,1)",
+              "#ecf0f1",
+              "#50AF95",
+              "#f3ba2f",
+              "#2a71d0",
+            ],
+            borderColor: "black",
+            borderWidth: 2,
+          },
+        ],
+      });
+    }
+  }, [selectedMonth]);
+
   return (
     <div className="flex flex-col items-center  w-[33.3%]">
       <label htmlFor="month-select" className="mt-4 dark:text-slate-200">
@@ -39,6 +110,10 @@ const SelectMonth = () => {
           backgroundSize: "16px 12px",
         }}
       ></select>
+
+      <div style={{ width: 700, display: isDataExist ? "block" : "none" }}>
+        <IssueChart chartData={userData} />
+      </div>
     </div>
   );
 };
