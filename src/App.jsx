@@ -4,15 +4,15 @@ import AppTitle from "./components/AppTitle";
 import { BsGithub } from "react-icons/bs";
 import SelectMonth from "./components/SelectMonth";
 import IssueChart from "./components/IssueChart";
-import UserData from "./components/Data";
+import issueData from "./components/issueData";
 
 function App() {
   const [userData, setUserData] = useState({
-    labels: UserData.map((data) => data.year),
+    labels: issueData.map((data) => data.date),
     datasets: [
       {
-        label: "Users Gained",
-        data: UserData.map((data) => data.userGain),
+        label: "Users Lost",
+        data: issueData.map((data) => data.issue_count),
         backgroundColor: [
           "rgba(75,192,192,1)",
           "#ecf0f1",
@@ -38,7 +38,9 @@ function App() {
       <BsGithub
         size={30}
         className="absolute bottom-5 hover:cursor-pointer hover:scale-105"
-        onClick={() => window.open("https://github.com/qryskalyst20", "_blank")}
+        onClick={() =>
+          window.open("https://github.com/qryskalyst20/rapidramatic", "_blank")
+        }
       />
     </main>
   );
