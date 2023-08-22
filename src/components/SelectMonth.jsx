@@ -106,7 +106,10 @@ const SelectMonth = () => {
         }}
       ></select>
 
-      <div style={{ width: 700, display: isDataExist ? "block" : "none" }}>
+      <div
+        style={{ width: 700, display: isDataExist ? "block" : "none" }}
+        className="border border-zinc-300 dark:border-white p-5 mt-5 rounded-md"
+      >
         <IssueChart chartData={userData} />
       </div>
     </div>
