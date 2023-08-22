@@ -15,7 +15,7 @@ function App() {
 
       <BsGithub
         size={30}
-        className="absolute bottom-5 hover:cursor-pointer hover:scale-105"
+        className="absolute bottom-5 hover:cursor-pointer hover:scale-105 dark:text-white"
         onClick={() =>
           window.open("https://github.com/qryskalyst20/rapidramatic", "_blank")
         }
