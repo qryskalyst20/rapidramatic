@@ -27,7 +27,7 @@ const ThemeSwitcher = () => {
   return (
     <button
       onClick={handleThemeSwitch}
-      className="p-2 bg-slate-400 dark:bg-zinc-600"
+      className="w-10 h-10 grid place-items-center p-2 bg-yellow-300 dark:bg-zinc-700 rounded-xl absolute right-5 top-2 hover:scale-110"
     >
       {theme === "dark" ? <FaMoon /> : <BsSunFill />}
     </button>
