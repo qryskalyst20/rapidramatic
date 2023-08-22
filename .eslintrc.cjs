@@ -16,6 +16,6 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    "no-unused-var": warn,
+    "no-unused-var": 0,
   },
 };
