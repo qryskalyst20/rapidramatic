@@ -61,11 +61,6 @@ const SelectMonth = () => {
     });
   }, []);
 
-  const filteredData = issueData.filter((d) => {
-    const dataMonth = new Date(d.date).getMonth() + 1;
-    return dataMonth === selectedMonth;
-  });
-
   useEffect(() => {
     if (selectedMonth !== null) {
       const filteredData = issueData.filter((d) => {
