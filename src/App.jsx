@@ -1,11 +1,12 @@
 import ThemeSwitcher from "./components/ThemeSwitcher";
+import AppTitle from "./components/AppTitle";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-slate-400 dark:bg-zinc-900 flex items-center justify-center">
+    <main className="w-screen h-screen bg-slate-100 dark:bg-zinc-900 flex flex-col p-5 items-center">
       <ThemeSwitcher />
-      <p className="text-blue-700 dark:text-white">Vite test</p>
-    </div>
+      <AppTitle />
+    </main>
   );
 }
 
