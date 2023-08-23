@@ -95,7 +95,6 @@
     "date": "2023-01-24",
     "issue_count": 1
   },
-
   {
     "date": "2023-04-01",
     "issue_count": 1
@@ -202,18 +201,1062 @@
   },
   {
     "date": "2023-04-27",
-    "issue_count": 0
+    "issue_count": 3
   },
   {
     "date": "2023-04-28",
-    "issue_count": 0
+    "issue_count": 8
   },
   {
     "date": "2023-04-29",
-    "issue_count": 0
+    "issue_count": 5
   },
   {
     "date": "2023-04-30",
+    "issue_count": 2
+  },
+  {
+    "date": "2023-07-30",
+    "issue_count": 1
+  },
+  {
+    "date": "2023-07-29",
+    "issue_count": 1
+  },
+  {
+    "date": "2023-07-28",
+    "issue_count": 6
+  },
+  {
+    "date": "2023-07-27",
+    "issue_count": 6
+  },
+  {
+    "date": "2023-07-26",
+    "issue_count": 6
+  },
+  {
+    "date": "7-01",
+    "issue_count": 0
+  },
+  {
+    "date": "7-02",
+    "issue_count": 0
+  },
+  {
+    "date": "7-03",
+    "issue_count": 0
+  },
+  {
+    "date": "7-04",
+    "issue_count": 0
+  },
+  {
+    "date": "7-05",
+    "issue_count": 0
+  },
+  {
+    "date": "7-06",
+    "issue_count": 0
+  },
+  {
+    "date": "7-07",
+    "issue_count": 0
+  },
+  {
+    "date": "7-08",
+    "issue_count": 0
+  },
+  {
+    "date": "7-09",
+    "issue_count": 0
+  },
+  {
+    "date": "7-10",
+    "issue_count": 0
+  },
+  {
+    "date": "7-11",
+    "issue_count": 0
+  },
+  {
+    "date": "7-12",
+    "issue_count": 0
+  },
+  {
+    "date": "7-13",
+    "issue_count": 0
+  },
+  {
+    "date": "7-14",
+    "issue_count": 0
+  },
+  {
+    "date": "7-15",
+    "issue_count": 0
+  },
+  {
+    "date": "7-16",
+    "issue_count": 0
+  },
+  {
+    "date": "7-17",
+    "issue_count": 0
+  },
+  {
+    "date": "7-18",
+    "issue_count": 0
+  },
+  {
+    "date": "7-19",
+    "issue_count": 0
+  },
+  {
+    "date": "7-20",
+    "issue_count": 0
+  },
+  {
+    "date": "7-21",
+    "issue_count": 0
+  },
+  {
+    "date": "7-22",
+    "issue_count": 0
+  },
+  {
+    "date": "7-23",
+    "issue_count": 0
+  },
+  {
+    "date": "7-24",
+    "issue_count": 0
+  },
+  {
+    "date": "7-25",
+    "issue_count": 0
+  },
+  {
+    "date": "7-26",
+    "issue_count": 0
+  },
+  {
+    "date": "7-27",
+    "issue_count": 0
+  },
+  {
+    "date": "7-28",
+    "issue_count": 0
+  },
+  {
+    "date": "7-29",
+    "issue_count": 0
+  },
+  {
+    "date": "7-30",
+    "issue_count": 0
+  },
+  {
+    "date": "7-31",
+    "issue_count": 0
+  },
+  {
+    "date": "2023-01-30",
+    "issue_count": 10
+  },
+  {
+    "date": "2023-01-29",
+    "issue_count": 7
+  },
+  {
+    "date": "2023-01-28",
+    "issue_count": 2
+  },
+  {
+    "date": "1-01",
+    "issue_count": 0
+  },
+  {
+    "date": "1-02",
+    "issue_count": 0
+  },
+  {
+    "date": "1-03",
+    "issue_count": 0
+  },
+  {
+    "date": "1-04",
+    "issue_count": 0
+  },
+  {
+    "date": "1-05",
+    "issue_count": 0
+  },
+  {
+    "date": "1-06",
+    "issue_count": 0
+  },
+  {
+    "date": "1-07",
+    "issue_count": 0
+  },
+  {
+    "date": "1-08",
+    "issue_count": 0
+  },
+  {
+    "date": "1-09",
+    "issue_count": 0
+  },
+  {
+    "date": "1-10",
+    "issue_count": 0
+  },
+  {
+    "date": "1-11",
+    "issue_count": 0
+  },
+  {
+    "date": "1-12",
+    "issue_count": 0
+  },
+  {
+    "date": "1-13",
+    "issue_count": 0
+  },
+  {
+    "date": "1-14",
+    "issue_count": 0
+  },
+  {
+    "date": "1-15",
+    "issue_count": 0
+  },
+  {
+    "date": "1-16",
+    "issue_count": 0
+  },
+  {
+    "date": "1-17",
+    "issue_count": 0
+  },
+  {
+    "date": "1-18",
+    "issue_count": 0
+  },
+  {
+    "date": "1-19",
+    "issue_count": 0
+  },
+  {
+    "date": "1-20",
+    "issue_count": 0
+  },
+  {
+    "date": "1-21",
+    "issue_count": 0
+  },
+  {
+    "date": "1-22",
+    "issue_count": 0
+  },
+  {
+    "date": "1-23",
+    "issue_count": 0
+  },
+  {
+    "date": "1-24",
+    "issue_count": 0
+  },
+  {
+    "date": "1-25",
+    "issue_count": 0
+  },
+  {
+    "date": "1-26",
+    "issue_count": 0
+  },
+  {
+    "date": "1-27",
+    "issue_count": 0
+  },
+  {
+    "date": "1-28",
+    "issue_count": 0
+  },
+  {
+    "date": "1-29",
+    "issue_count": 0
+  },
+  {
+    "date": "1-30",
+    "issue_count": 0
+  },
+  {
+    "date": "1-31",
+    "issue_count": 0
+  },
+  {
+    "date": "2023-03-02",
+    "issue_count": 16
+  },
+  {
+    "date": "2023-03-01",
+    "issue_count": 4
+  },
+  {
+    "date": "2-01",
+    "issue_count": 0
+  },
+  {
+    "date": "2-02",
+    "issue_count": 0
+  },
+  {
+    "date": "2-03",
+    "issue_count": 0
+  },
+  {
+    "date": "2-04",
+    "issue_count": 0
+  },
+  {
+    "date": "2-05",
+    "issue_count": 0
+  },
+  {
+    "date": "2-06",
+    "issue_count": 0
+  },
+  {
+    "date": "2-07",
+    "issue_count": 0
+  },
+  {
+    "date": "2-08",
+    "issue_count": 0
+  },
+  {
+    "date": "2-09",
+    "issue_count": 0
+  },
+  {
+    "date": "2-10",
+    "issue_count": 0
+  },
+  {
+    "date": "2-11",
+    "issue_count": 0
+  },
+  {
+    "date": "2-12",
+    "issue_count": 0
+  },
+  {
+    "date": "2-13",
+    "issue_count": 0
+  },
+  {
+    "date": "2-14",
+    "issue_count": 0
+  },
+  {
+    "date": "2-15",
+    "issue_count": 0
+  },
+  {
+    "date": "2-16",
+    "issue_count": 0
+  },
+  {
+    "date": "2-17",
+    "issue_count": 0
+  },
+  {
+    "date": "2-18",
+    "issue_count": 0
+  },
+  {
+    "date": "2-19",
+    "issue_count": 0
+  },
+  {
+    "date": "2-20",
+    "issue_count": 0
+  },
+  {
+    "date": "2-21",
+    "issue_count": 0
+  },
+  {
+    "date": "2-22",
+    "issue_count": 0
+  },
+  {
+    "date": "2-23",
+    "issue_count": 0
+  },
+  {
+    "date": "2-24",
+    "issue_count": 0
+  },
+  {
+    "date": "2-25",
+    "issue_count": 0
+  },
+  {
+    "date": "2-26",
+    "issue_count": 0
+  },
+  {
+    "date": "2-27",
+    "issue_count": 0
+  },
+  {
+    "date": "2-28",
+    "issue_count": 0
+  },
+  {
+    "date": "2023-03-30",
+    "issue_count": 19
+  },
+  {
+    "date": "3-01",
+    "issue_count": 0
+  },
+  {
+    "date": "3-02",
+    "issue_count": 0
+  },
+  {
+    "date": "3-03",
+    "issue_count": 0
+  },
+  {
+    "date": "3-04",
+    "issue_count": 0
+  },
+  {
+    "date": "3-05",
+    "issue_count": 0
+  },
+  {
+    "date": "3-06",
+    "issue_count": 0
+  },
+  {
+    "date": "3-07",
+    "issue_count": 0
+  },
+  {
+    "date": "3-08",
+    "issue_count": 0
+  },
+  {
+    "date": "3-09",
+    "issue_count": 0
+  },
+  {
+    "date": "3-10",
+    "issue_count": 0
+  },
+  {
+    "date": "3-11",
+    "issue_count": 0
+  },
+  {
+    "date": "3-12",
+    "issue_count": 0
+  },
+  {
+    "date": "3-13",
+    "issue_count": 0
+  },
+  {
+    "date": "3-14",
+    "issue_count": 0
+  },
+  {
+    "date": "3-15",
+    "issue_count": 0
+  },
+  {
+    "date": "3-16",
+    "issue_count": 0
+  },
+  {
+    "date": "3-17",
+    "issue_count": 0
+  },
+  {
+    "date": "3-18",
+    "issue_count": 0
+  },
+  {
+    "date": "3-19",
+    "issue_count": 0
+  },
+  {
+    "date": "3-20",
+    "issue_count": 0
+  },
+  {
+    "date": "3-21",
+    "issue_count": 0
+  },
+  {
+    "date": "3-22",
+    "issue_count": 0
+  },
+  {
+    "date": "3-23",
+    "issue_count": 0
+  },
+  {
+    "date": "3-24",
+    "issue_count": 0
+  },
+  {
+    "date": "3-25",
+    "issue_count": 0
+  },
+  {
+    "date": "3-26",
+    "issue_count": 0
+  },
+  {
+    "date": "3-27",
+    "issue_count": 0
+  },
+  {
+    "date": "3-28",
+    "issue_count": 0
+  },
+  {
+    "date": "3-29",
+    "issue_count": 0
+  },
+  {
+    "date": "3-30",
+    "issue_count": 0
+  },
+  {
+    "date": "3-31",
+    "issue_count": 0
+  },
+  {
+    "date": "4-01",
+    "issue_count": 0
+  },
+  {
+    "date": "4-02",
+    "issue_count": 0
+  },
+  {
+    "date": "4-03",
+    "issue_count": 0
+  },
+  {
+    "date": "4-04",
+    "issue_count": 0
+  },
+  {
+    "date": "4-05",
+    "issue_count": 0
+  },
+  {
+    "date": "4-06",
+    "issue_count": 0
+  },
+  {
+    "date": "4-07",
+    "issue_count": 0
+  },
+  {
+    "date": "4-08",
+    "issue_count": 0
+  },
+  {
+    "date": "4-09",
+    "issue_count": 0
+  },
+  {
+    "date": "4-10",
+    "issue_count": 0
+  },
+  {
+    "date": "4-11",
+    "issue_count": 0
+  },
+  {
+    "date": "4-12",
+    "issue_count": 0
+  },
+  {
+    "date": "4-13",
+    "issue_count": 0
+  },
+  {
+    "date": "4-14",
+    "issue_count": 0
+  },
+  {
+    "date": "4-15",
+    "issue_count": 0
+  },
+  {
+    "date": "4-16",
+    "issue_count": 0
+  },
+  {
+    "date": "4-17",
+    "issue_count": 0
+  },
+  {
+    "date": "4-18",
+    "issue_count": 0
+  },
+  {
+    "date": "4-19",
+    "issue_count": 0
+  },
+  {
+    "date": "4-20",
+    "issue_count": 0
+  },
+  {
+    "date": "4-21",
+    "issue_count": 0
+  },
+  {
+    "date": "4-22",
+    "issue_count": 0
+  },
+  {
+    "date": "4-23",
+    "issue_count": 0
+  },
+  {
+    "date": "4-24",
+    "issue_count": 0
+  },
+  {
+    "date": "4-25",
+    "issue_count": 0
+  },
+  {
+    "date": "4-26",
+    "issue_count": 0
+  },
+  {
+    "date": "4-27",
+    "issue_count": 0
+  },
+  {
+    "date": "4-28",
+    "issue_count": 0
+  },
+  {
+    "date": "4-29",
+    "issue_count": 0
+  },
+  {
+    "date": "4-30",
+    "issue_count": 0
+  },
+  {
+    "date": "2023-05-30",
+    "issue_count": 16
+  },
+  {
+    "date": "5-01",
+    "issue_count": 0
+  },
+  {
+    "date": "5-02",
+    "issue_count": 0
+  },
+  {
+    "date": "5-03",
+    "issue_count": 0
+  },
+  {
+    "date": "5-04",
+    "issue_count": 0
+  },
+  {
+    "date": "5-05",
+    "issue_count": 0
+  },
+  {
+    "date": "5-06",
+    "issue_count": 0
+  },
+  {
+    "date": "5-07",
+    "issue_count": 0
+  },
+  {
+    "date": "5-08",
+    "issue_count": 0
+  },
+  {
+    "date": "5-09",
+    "issue_count": 0
+  },
+  {
+    "date": "5-10",
+    "issue_count": 0
+  },
+  {
+    "date": "5-11",
+    "issue_count": 0
+  },
+  {
+    "date": "5-12",
+    "issue_count": 0
+  },
+  {
+    "date": "5-13",
+    "issue_count": 0
+  },
+  {
+    "date": "5-14",
+    "issue_count": 0
+  },
+  {
+    "date": "5-15",
+    "issue_count": 0
+  },
+  {
+    "date": "5-16",
+    "issue_count": 0
+  },
+  {
+    "date": "5-17",
+    "issue_count": 0
+  },
+  {
+    "date": "5-18",
+    "issue_count": 0
+  },
+  {
+    "date": "5-19",
+    "issue_count": 0
+  },
+  {
+    "date": "5-20",
+    "issue_count": 0
+  },
+  {
+    "date": "5-21",
+    "issue_count": 0
+  },
+  {
+    "date": "5-22",
+    "issue_count": 0
+  },
+  {
+    "date": "5-23",
+    "issue_count": 0
+  },
+  {
+    "date": "5-24",
+    "issue_count": 0
+  },
+  {
+    "date": "5-25",
+    "issue_count": 0
+  },
+  {
+    "date": "5-26",
+    "issue_count": 0
+  },
+  {
+    "date": "5-27",
+    "issue_count": 0
+  },
+  {
+    "date": "5-28",
+    "issue_count": 0
+  },
+  {
+    "date": "5-29",
+    "issue_count": 0
+  },
+  {
+    "date": "5-30",
+    "issue_count": 0
+  },
+  {
+    "date": "5-31",
+    "issue_count": 0
+  },
+  {
+    "date": "2023-06-30",
+    "issue_count": 3
+  },
+  {
+    "date": "2023-06-29",
+    "issue_count": 1
+  },
+  {
+    "date": "2023-06-28",
+    "issue_count": 15
+  },
+  {
+    "date": "6-01",
+    "issue_count": 0
+  },
+  {
+    "date": "6-02",
+    "issue_count": 0
+  },
+  {
+    "date": "6-03",
+    "issue_count": 0
+  },
+  {
+    "date": "6-04",
+    "issue_count": 0
+  },
+  {
+    "date": "6-05",
+    "issue_count": 0
+  },
+  {
+    "date": "6-06",
+    "issue_count": 0
+  },
+  {
+    "date": "6-07",
+    "issue_count": 0
+  },
+  {
+    "date": "6-08",
+    "issue_count": 0
+  },
+  {
+    "date": "6-09",
+    "issue_count": 0
+  },
+  {
+    "date": "6-10",
+    "issue_count": 0
+  },
+  {
+    "date": "6-11",
+    "issue_count": 0
+  },
+  {
+    "date": "6-12",
+    "issue_count": 0
+  },
+  {
+    "date": "6-13",
+    "issue_count": 0
+  },
+  {
+    "date": "6-14",
+    "issue_count": 0
+  },
+  {
+    "date": "6-15",
+    "issue_count": 0
+  },
+  {
+    "date": "6-16",
+    "issue_count": 0
+  },
+  {
+    "date": "6-17",
+    "issue_count": 0
+  },
+  {
+    "date": "6-18",
+    "issue_count": 0
+  },
+  {
+    "date": "6-19",
+    "issue_count": 0
+  },
+  {
+    "date": "6-20",
+    "issue_count": 0
+  },
+  {
+    "date": "6-21",
+    "issue_count": 0
+  },
+  {
+    "date": "6-22",
+    "issue_count": 0
+  },
+  {
+    "date": "6-23",
+    "issue_count": 0
+  },
+  {
+    "date": "6-24",
+    "issue_count": 0
+  },
+  {
+    "date": "6-25",
+    "issue_count": 0
+  },
+  {
+    "date": "6-26",
+    "issue_count": 0
+  },
+  {
+    "date": "6-27",
+    "issue_count": 0
+  },
+  {
+    "date": "6-28",
+    "issue_count": 0
+  },
+  {
+    "date": "6-29",
+    "issue_count": 0
+  },
+  {
+    "date": "6-30",
+    "issue_count": 0
+  },
+  {
+    "date": "2023-08-23",
+    "issue_count": 8
+  },
+  {
+    "date": "2023-08-22",
+    "issue_count": 10
+  },
+  {
+    "date": "2023-08-21",
+    "issue_count": 1
+  },
+  {
+    "date": "8-01",
+    "issue_count": 0
+  },
+  {
+    "date": "8-02",
+    "issue_count": 0
+  },
+  {
+    "date": "8-03",
+    "issue_count": 0
+  },
+  {
+    "date": "8-04",
+    "issue_count": 0
+  },
+  {
+    "date": "8-05",
+    "issue_count": 0
+  },
+  {
+    "date": "8-06",
+    "issue_count": 0
+  },
+  {
+    "date": "8-07",
+    "issue_count": 0
+  },
+  {
+    "date": "8-08",
+    "issue_count": 0
+  },
+  {
+    "date": "8-09",
+    "issue_count": 0
+  },
+  {
+    "date": "8-10",
+    "issue_count": 0
+  },
+  {
+    "date": "8-11",
+    "issue_count": 0
+  },
+  {
+    "date": "8-12",
+    "issue_count": 0
+  },
+  {
+    "date": "8-13",
+    "issue_count": 0
+  },
+  {
+    "date": "8-14",
+    "issue_count": 0
+  },
+  {
+    "date": "8-15",
+    "issue_count": 0
+  },
+  {
+    "date": "8-16",
+    "issue_count": 0
+  },
+  {
+    "date": "8-17",
+    "issue_count": 0
+  },
+  {
+    "date": "8-18",
+    "issue_count": 0
+  },
+  {
+    "date": "8-19",
+    "issue_count": 0
+  },
+  {
+    "date": "8-20",
+    "issue_count": 0
+  },
+  {
+    "date": "8-21",
+    "issue_count": 0
+  },
+  {
+    "date": "8-22",
+    "issue_count": 0
+  },
+  {
+    "date": "8-23",
+    "issue_count": 0
+  },
+  {
+    "date": "8-24",
+    "issue_count": 0
+  },
+  {
+    "date": "8-25",
+    "issue_count": 0
+  },
+  {
+    "date": "8-26",
+    "issue_count": 0
+  },
+  {
+    "date": "8-27",
+    "issue_count": 0
+  },
+  {
+    "date": "8-28",
+    "issue_count": 0
+  },
+  {
+    "date": "8-29",
+    "issue_count": 0
+  },
+  {
+    "date": "8-30",
+    "issue_count": 0
+  },
+  {
+    "date": "8-31",
     "issue_count": 0
   }
 ]
