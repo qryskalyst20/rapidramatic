@@ -2,9 +2,25 @@ import { useEffect, useState } from "react";
 import issueData from "./issueData";
 import IssueChart from "./IssueChart";
 
+const barOption = [
+  {
+    id: 0,
+    type: "Line",
+  },
+  {
+    id: 1,
+    type: "Bar",
+  },
+  {
+    id: 2,
+    type: "Pie",
+  },
+];
+
 const SelectMonth = ({ theme }) => {
   const [isDataExist, setIsDataExist] = useState(false);
   const [selectedMonth, setSelectedMonth] = useState(null);
+  const [barType, setBarType] = useState("line");
   const [userData, setUserData] = useState({
     labels: [],
     datasets: [
@@ -94,23 +110,45 @@ const SelectMonth = ({ theme }) => {
       <label htmlFor="month-select" className="mt-4 dark:text-slate-200">
         Select Month:
       </label>
-      <select
-        name="test"
-        id="month-select"
-        className="appearance-none w-[70%] pt-[0.375rem] pr-[2.25rem] pb-[0.375rem] pl-[0.75rem] bg-[right_0.75rem_center] rounded-md bg-transparent border border-zinc-300 dark:border-white dark:text-slate-200"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e")`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "right 0.75rem center",
-          backgroundSize: "16px 12px",
-        }}
-      ></select>
+      <div className="w-full flex justify-center gap-2">
+        <select
+          name="test"
+          id="month-select"
+          className="appearance-none w-[70%] pt-[0.375rem] pr-[2.25rem] pb-[0.375rem] pl-[0.75rem] bg-[right_0.75rem_center] rounded-md bg-transparent border border-zinc-300 dark:border-white dark:text-slate-200"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e")`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "right 0.75rem center",
+            backgroundSize: "16px 12px",
+          }}
+        ></select>
+        <select
+          name="test"
+          id="bar-select"
+          className="appearance-none pt-[0.375rem] pr-[2.25rem] pb-[0.375rem] pl-[0.75rem] bg-[right_0.75rem_center] rounded-md bg-transparent border border-zinc-300 dark:border-white dark:text-slate-200"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e")`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "right 0.75rem center",
+            backgroundSize: "16px 12px",
+          }}
+          onChange={(e) => setBarType(e.target.value.toLowerCase())}
+        >
+          {barOption.map((option) => {
+            return (
+              <option key={option.id} value={option.type}>
+                {option.type}
+              </option>
+            );
+          })}
+        </select>
+      </div>
 
       <div
         style={{ width: 700, display: isDataExist ? "block" : "none" }}
         className="border border-zinc-300 dark:border-white p-5 mt-5 rounded-md"
       >
-        <IssueChart chartData={userData} />
+        <IssueChart chartData={userData} type={barType} />
       </div>
     </div>
   );
