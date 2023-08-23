@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import issueData from "./issueData";
 import IssueChart from "./IssueChart";
 
-const SelectMonth = () => {
+const SelectMonth = ({ theme }) => {
   const [isDataExist, setIsDataExist] = useState(false);
   const [selectedMonth, setSelectedMonth] = useState(null);
   const [userData, setUserData] = useState({
@@ -81,13 +81,13 @@ const SelectMonth = () => {
               "#f3ba2f",
               "#2a71d0",
             ],
-            borderColor: "black",
+            borderColor: theme === "dark" ? "rgb(226 232 240)" : "black",
             borderWidth: 2,
           },
         ],
       });
     }
-  }, [selectedMonth]);
+  }, [theme, selectedMonth]);
 
   return (
     <div className="flex flex-col items-center  w-[33.3%]">
