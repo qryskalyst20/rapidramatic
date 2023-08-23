@@ -26,6 +26,7 @@ function App() {
   const handleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
+
   return (
     <main className="w-screen h-screen bg-slate-100 dark:bg-zinc-900 flex flex-col p-5 items-center">
       <ThemeSwitcher handleThemeSwitch={handleTheme} theme={theme} />
