@@ -82,7 +82,7 @@ const SelectMonth = ({ theme }) => {
               "#2a71d0",
             ],
             borderColor: theme === "dark" ? "rgb(226 232 240)" : "black",
-            borderWidth: 2,
+            borderWidth: 1.5,
           },
         ],
       });
