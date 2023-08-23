@@ -10,12 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@the-convocation/twitter-scraper": "^0.5.0",
     "chart.js": "^4.3.3",
+    "cheerio": "^1.0.0-rc.12",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-charts": "^3.0.0-beta.55",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.10.1",
+    "rettiwt-api": "^2.1.0",
+    "rettiwt-auth": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
