@@ -1,10 +1,11 @@
 # Rapidramatic
 **Original idea from:** [https://github.com/sattiyans/rapidaily](https://github.com/sattiyans/rapidaily)
 
-## Extra Feature
-- [x] Dark mode toggle :fire:
-- [x] Updated data :fire:
+## Extra Feature :fire:
+- [x] Dark mode toggle
+- [x] Updated data
 - [ ] Links to issues
+- [x] Change bar style options
 
 ## React + Vite
 
