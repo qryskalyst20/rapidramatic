@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import issueData from "./issueData";
 import IssueChart from "./IssueChart";
+import { useMediaQuery } from "react-responsive";
 
 const barOption = [
   {
@@ -105,21 +106,24 @@ const SelectMonth = ({ theme }) => {
     }
   }, [theme, selectedMonth]);
 
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+
   return (
     <div className="flex flex-col items-center  w-[33.3%]">
       <label htmlFor="month-select" className="mt-4 dark:text-slate-200">
         Select Month:
       </label>
-      <div className="w-full flex justify-center gap-2">
+      <div className="w-screen flex justify-center gap-2">
         <select
           name="test"
           id="month-select"
-          className="focus:outline-none bg-slate-100 dark:bg-zinc-900 appearance-none w-[70%] pt-[0.375rem] pr-[2.25rem] pb-[0.375rem] pl-[0.75rem] bg-[right_0.75rem_center] rounded-md bg-transparent border border-zinc-300 dark:border-white dark:text-white"
+          className="focus:outline-none bg-slate-100 dark:bg-zinc-900 appearance-none pt-[0.375rem] pr-[2.25rem] pb-[0.375rem] pl-[0.75rem] bg-[right_0.75rem_center] rounded-md bg-transparent border border-zinc-300 dark:border-white dark:text-white"
           style={{
             backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e")`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right 0.75rem center",
             backgroundSize: "16px 12px",
+            width: isMobile ? "50%" : "20%",
           }}
         ></select>
         <select
@@ -149,7 +153,10 @@ const SelectMonth = ({ theme }) => {
       </div>
 
       <div
-        style={{ width: 700, display: isDataExist ? "block" : "none" }}
+        style={{
+          width: isMobile ? 300 : 700,
+          display: isDataExist ? "block" : "none",
+        }}
         className="border border-zinc-300 dark:border-white p-5 mt-5 rounded-md"
       >
         <IssueChart chartData={userData} type={barType} theme={theme} />
