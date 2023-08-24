@@ -18,6 +18,7 @@
     "react-charts": "^3.0.0-beta.55",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-responsive": "^9.0.2",
     "rettiwt-api": "^2.1.0",
     "rettiwt-auth": "^1.2.0"
   },
